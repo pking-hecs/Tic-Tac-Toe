@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+
+<body background="bg.jpg" class="bg-no-repeat bg-cover flex justify-center items-center h-screen">
+
+    <div class="flex flex-col justify-center items-center">
+        <h1 class="text-8xl text-white font-bold mb-6">Tic Tac Toe</h1>
+
+        <div id="board" class=" border-2 border-white grid grid-cols-3 p-16 rounded-4xl backdrop-blur-sm mx-auto">
+            <button type="button" class="cell rounded-sm text-7xl font-bold bg-white border-2 border-black h-30 w-30"></button>
+            <button type="button" class="cell rounded-sm text-7xl font-bold bg-white border-2 border-black h-30 w-30"></button>
+            <button type="button" class="cell rounded-sm text-7xl font-bold bg-white border-2 border-black h-30 w-30"></button>
+            <button type="button" class="cell rounded-sm text-7xl font-bold bg-white border-2 border-black h-30 w-30"></button>
+            <button type="button" class="cell rounded-sm text-7xl font-bold bg-white border-2 border-black h-30 w-30"></button>
+            <button type="button" class="cell rounded-sm text-7xl font-bold bg-white border-2 border-black h-30 w-30"></button>
+            <button type="button" class="cell rounded-sm text-7xl font-bold bg-white border-2 border-black h-30 w-30"></button>
+            <button type="button" class="cell rounded-sm text-7xl font-bold bg-white border-2 border-black h-30 w-30"></button>
+            <button type="button" class="cell rounded-sm text-7xl font-bold bg-white border-2 border-black h-30 w-30"></button>
+        </div>
+
+        <p id="status" class="text-2xl mt-5 font-semibold"></p>
+
+        <button type="button" id="reset" class="mt-4 bg-blue-700 text-2xl text-white px-4 py-2 rounded-lg hover:bg-blue-900">
+            Reset Game
+        </button>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
